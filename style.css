@@ -1,0 +1,10 @@
+.color-primary{
+    color:rgb(5, 23, 199);
+}
+.font-50{
+    font-size: 50px;
+}
+
+.tb>thead>tr>td{
+    border: 1px solid red;
+}
