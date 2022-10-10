@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>  /*  클래스 추가  */
+    <link rel="stylesheet" href="style.css">    <!-- link로 css파일 불러오기 -->
+
+    <!-- <style>  /*  클래스 추가  */
         .color-primary{
             color:red;
         }
         .font-50{
             font-size: 50px;
         }
-    </style>
+    </style> -->
 </head>
 
 <body>
@@ -27,6 +29,27 @@
         <option>Jeju</option>
     </select>
 
+    <table class="tb">   <!-- 테이블, class 적용 -->
+        <thead>
+            <tr>
+                <td>이름</td>
+                <td>지역</td>
+                <td>전화번호</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>김용겸</td>
+                <td>안양</td>
+                <td>010-0000-0000</td>
+            </tr>
+        </tbody>
+    </table>
 
+    <a href="https://www.naver.com" target="_blank">네이버</a>
+
+    <button type="button" onclick="javascript:alert('click!');">click</button>
+    <img  width="400px"
+    src="https://i0.wp.com/icnweb.kr/wp-content/uploads/2022/03/KU_korea-logo-600web.jpg?resize=600%2C193&ssl=1" alt="">
 </body>
 </html>
